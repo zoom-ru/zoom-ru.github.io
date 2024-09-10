@@ -1,0 +1,7 @@
+User-agent: *
+
+User-agent: Yandex
+
+host: https://zoom-ru.github.io
+
+Sitemap: https://zoom-ru.github.io/sitemap.xml
